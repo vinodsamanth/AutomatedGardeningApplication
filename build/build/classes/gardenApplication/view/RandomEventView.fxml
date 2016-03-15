@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="100.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gardenApplication.view.RandomEventViewController">
+   <children>
+      <Label layoutX="47.0" layoutY="21.0" text="Triger Natural Event" />
+      <ToggleButton fx:id="startRain" layoutX="11.0" layoutY="61.0" mnemonicParsing="false" onMouseClicked="#rainButton" text="Rain Event" />
+      <ToggleButton fx:id="startSnow" layoutX="114.0" layoutY="61.0" mnemonicParsing="false" onMouseClicked="#snowButton" text="Snow Event" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1350.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gardenApplication.view.StartViewController">
+   <children>
+      <Button fx:id="startApplication" layoutX="578.0" layoutY="290.0" mnemonicParsing="false" onMouseClicked="#startApplication" text="Start Application" />
+   </children>
+</AnchorPane>
